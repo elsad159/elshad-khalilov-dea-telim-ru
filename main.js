@@ -1,3 +1,6 @@
-const number = 5
+let start = 500
+let end = 300
 
-console.log(number);
+for (let index = start; index > end; index--) {
+    console.log(index);
+}
