@@ -1,12 +1,9 @@
-let a = "78987"
+const number = [3, 4, 5, 6, 7]
 
-function isPolindrome(a) {
-    if (a.split("").reverse().join("") == a.split("").join("")) {
-        console.log(true);
-    } else {
-        console.log(false);
+let summ = 0;
 
-    }
+for (let index = 0; index < number.length; index++) {
+    summ += number[index];
 }
 
-isPolindrome(a)
+console.log(summ);
