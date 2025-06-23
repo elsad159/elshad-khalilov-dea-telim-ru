@@ -1,9 +1,8 @@
-const number = [3, 4, 5, 6, 7]
+let countOfStars = 1;
+let totalLines = 3;
 
-let summ = 0;
-
-for (let index = 0; index < number.length; index++) {
-    summ += number[index];
+for (let i = 0; i < totalLines; i++) {
+    let stars = "*".repeat(countOfStars);
+    console.log(stars);
+    countOfStars += 3;
 }
-
-console.log(summ);
