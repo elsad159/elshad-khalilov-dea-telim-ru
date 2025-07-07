@@ -1,8 +1,11 @@
-let countOfStars = 1;
-let totalLines = 3;
+let array1 = [2, 7, 13, 24, 47]
 
-for (let i = 0; i < totalLines; i++) {
-    let stars = "*".repeat(countOfStars);
-    console.log(stars);
-    countOfStars += 3;
-}
+let array2 = [27, 31, 37, 44, 57, 123, 432]
+
+let array3 = array1.concat(array2)
+
+array3.sort((a, b) => {
+    return a - b
+})
+
+console.log(array3);
